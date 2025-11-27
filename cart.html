@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Nice Tees | Cart</title>
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+        <div class="logo"><strong>Nice<br>Tees</strong></div>
+    </a>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Log In</a>
+    </nav>
+</header>
+
+<section class="hero cart-hero">
+    <h1>Your Cart</h1>
+</section>
+
+<div class="container cart-container">
+
+    <div class="cart-items">
+
+        <!-- Example Cart Item -->
+        <div class="cart-item">
+            <img src="https://via.placeholder.com/200x200?text=Tee+1" alt="Product">
+
+            <div class="cart-item-info">
+                <h3>Cool Tee</h3>
+                <p class="price">$24.99</p>
+
+                <div class="quantity-control">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </div>
+
+                <button class="remove-item">Remove</button>
+            </div>
+        </div>
+
+        <!-- Duplicate this block to show more items -->
+    </div>
+
+    <div class="cart-summary">
+        <h2>Order Summary</h2>
+
+        <div class="summary-line">
+            <span>Subtotal</span>
+            <span>$24.99</span>
+        </div>
+
+        <div class="summary-line">
+            <span>Shipping</span>
+            <span>$4.99</span>
+        </div>
+
+        <div class="summary-line total">
+            <strong>Total</strong>
+            <strong>$29.98</strong>
+        </div>
+
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Nice Tees — All rights reserved.
+</footer>
+</body>
+</html>

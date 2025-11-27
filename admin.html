@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Nice Tees | Admin Dashboard</title>
+</head>
+<body>
+
+<header>
+    <a href="index.html">
+        <div class="logo"><strong>Nice<br>Tees</strong></div>
+    </a>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Log In</a>
+    </nav>
+</header>
+
+<section class="hero admin-hero">
+    <h1>Admin Dashboard</h1>
+</section>
+
+<div class="container admin-container">
+
+    <h2>Product Management</h2>
+
+    <div class="admin-actions">
+        <button class="admin-btn add">Add Product</button>
+        <button class="admin-btn edit">Edit Product</button>
+        <button class="admin-btn delete">Delete Product</button>
+    </div>
+
+    <h2>Data Views</h2>
+
+    <div class="admin-actions">
+        <button class="admin-btn view">View Product List</button>
+        <button class="admin-btn view">View Orders List</button>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Nice Tees — All rights reserved.
+</footer>
+</body>
+</html>

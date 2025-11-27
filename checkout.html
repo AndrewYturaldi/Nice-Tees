@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Nice Tees | Checkout</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <div class="logo"><strong>Nice<br>Tees</strong></div>
+        </a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Log In</a>
+        </nav>
+    </header>
+
+    <main class="checkout-container">
+
+        <h1>Checkout</h1>
+
+        <div class="checkout-grid">
+
+            <!-- Left: Contact & Shipping -->
+            <section class="checkout-section">
+                <h2>Shipping Information</h2>
+
+                <form id="checkoutForm">
+
+                    <label>Full Name</label>
+                    <input type="text" required>
+
+                    <label>Email</label>
+                    <input type="email" required>
+
+                    <label>Address</label>
+                    <input type="text" required>
+
+                    <label>City</label>
+                    <input type="text" required>
+
+                    <label>Zip Code</label>
+                    <input type="text" required>
+
+                    <label>Country</label>
+                    <input type="text" required>
+
+                    <button type="submit" class="checkout-btn">Place Order</button>
+                </form>
+            </section>
+
+            <!-- Right: Order Summary -->
+            <section class="checkout-section">
+                <h2>Order Summary</h2>
+
+                <div class="summary-item">
+                    <span>Graphic Tee – Blue</span>
+                    <span>$18.99</span>
+                </div>
+
+                <div class="summary-item">
+                    <span>Vintage Sunset Tee</span>
+                    <span>$21.50</span>
+                </div>
+
+                <hr>
+
+                <div class="summary-item total">
+                    <span>Total:</span>
+                    <span>$40.49</span>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        &copy; 2025 Nice Tees — All rights reserved.
+    </footer>
+</body>
+</html>

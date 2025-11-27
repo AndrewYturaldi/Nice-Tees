@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Nice Tees | Register</title>
+</head>
+<body>
+
+<header>
+    <a href="index.html"><div class="logo"><strong>Nice<br>Tees</strong></div></a>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Log In</a>
+    </nav>
+</header>
+
+<section class="hero register-hero">
+    <h1>Create Account</h1>
+</section>
+
+<div class="container register-container">
+
+    <form class="register-form">
+        <h2>Register</h2>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="John Smith" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Create a password" required>
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Re-enter your password" required>
+
+        <button type="submit">Create Account</button>
+
+        <p class="register-text">
+            Already have an account? <a href="login.html">Log In</a>
+        </p>
+    </form>
+
+</div>
+
+<footer>
+    &copy; 2025 Nice Tees — All rights reserved.
+</footer>
+</body>
+</html>
